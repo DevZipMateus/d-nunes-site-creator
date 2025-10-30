@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo e Descrição */}
           <div className="lg:col-span-1">
-            <img src={logo} alt="D Tempo Assessoria Contábil" className="h-16 w-auto mb-4 brightness-0 invert" />
+            <img src={logo} alt="D Tempo Assessoria Contábil" className="h-24 w-auto mb-4 brightness-0 invert" />
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Contabilidade com excelência para pequenas e médias empresas há 10 anos.
             </p>
