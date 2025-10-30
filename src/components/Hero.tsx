@@ -17,7 +17,7 @@ const Hero = () => {
             <span className="text-accent font-semibold">Contabilidade com Excelência</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
             D Nunes Serviços Contábeis
           </h1>
           
