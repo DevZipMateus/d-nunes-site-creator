@@ -1,4 +1,5 @@
 import { Target, Eye, Award } from "lucide-react";
+import aboutTeam from "@/assets/about-team.jpg";
 
 const About = () => {
   return (
@@ -11,6 +12,14 @@ const About = () => {
           <p className="text-lg text-muted-foreground leading-relaxed">
             A D Nunes Serviços Contábeis nasceu há 10 anos com vontade de empreender em contabilidade focada no negócio do cliente, com o pensamento e ação voltados não somente na abertura e legalização das empresas e sim no negócio do cliente.
           </p>
+        </div>
+
+        <div className="max-w-5xl mx-auto mb-16">
+          <img 
+            src={aboutTeam} 
+            alt="Equipe de profissionais da D Tempo Contabilidade em reunião"
+            className="w-full h-auto rounded-2xl shadow-xl"
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

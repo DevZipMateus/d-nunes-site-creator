@@ -1,5 +1,6 @@
 import { FileText, Users, Building2, Calculator, FileCheck, DollarSign, Receipt, Smartphone } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
+import servicesAccounting from "@/assets/services-accounting.jpg";
 
 const Services = () => {
   const services = [
@@ -55,6 +56,14 @@ const Services = () => {
           <p className="text-lg text-muted-foreground">
             Soluções completas em contabilidade para pequenas e médias empresas
           </p>
+        </div>
+
+        <div className="max-w-4xl mx-auto mb-12">
+          <img 
+            src={servicesAccounting} 
+            alt="Profissional contábil trabalhando com documentos fiscais e calculadora"
+            className="w-full h-auto rounded-2xl shadow-xl"
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

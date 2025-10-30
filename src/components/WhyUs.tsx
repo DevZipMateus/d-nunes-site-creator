@@ -1,4 +1,5 @@
 import { CheckCircle2, Laptop, Users, TrendingUp, Shield, Zap } from "lucide-react";
+import whyUsPartnership from "@/assets/why-us-partnership.jpg";
 
 const WhyUs = () => {
   const differentials = [
@@ -44,6 +45,14 @@ const WhyUs = () => {
           <p className="text-lg text-muted-foreground">
             Diferenciais que fazem a diferença no seu negócio
           </p>
+        </div>
+
+        <div className="max-w-4xl mx-auto mb-12">
+          <img 
+            src={whyUsPartnership} 
+            alt="Parceria de negócios representando confiança e colaboração"
+            className="w-full h-auto rounded-2xl shadow-xl"
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
