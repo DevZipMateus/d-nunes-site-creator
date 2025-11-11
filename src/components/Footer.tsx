@@ -101,7 +101,7 @@ const Footer = () => {
                 <MapPin size={18} className="flex-shrink-0 mt-0.5 text-accent" />
                 <span className="text-primary-foreground/80 text-sm">
                   Rua Alex Vallauri, 20 - Sala 01<br />
-                  São José dos Campos - SP
+                  Jacareí - SP
                 </span>
               </li>
               <li className="flex items-center gap-2">

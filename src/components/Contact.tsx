@@ -25,7 +25,7 @@ const Contact = () => {
                   <h3 className="font-semibold text-foreground mb-2">Endereço</h3>
                   <p className="text-muted-foreground">
                     Rua Alex Vallauri, 20 - Sala 01<br />
-                    São José dos Campos - SP
+                    Jacareí - SP
                   </p>
                 </div>
               </div>
